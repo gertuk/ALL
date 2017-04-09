@@ -1,0 +1,354 @@
+body {
+    color: #8f8f8f;
+    font: 12px Tahoma, sans-serif;
+    background:url("Images/mainbg.png");
+    border-top: 5px solid #7e7e7e;
+    margin: 0;
+
+
+}
+input[type="text"] {
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    height: 30px;
+    color: #b2b2b2;
+    padding: 0 10px;
+    vertical-align: top;
+}
+button {
+    color:transparent;
+    background-color:transparent;
+    border: none;
+    height: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    margin: 20px 0;
+}
+#wrapper {
+
+    max-width: 1300px;
+    margin:auto;
+}
+
+/*//////////////////////////////////////////*/
+
+.head a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family: "Franklin Gothic Book";
+    vertical-align: top;
+    padding-left: 10px;
+}
+.head div{
+    display: inline-block;
+    max-width: 400px;
+    vertical-align: top;
+}
+.head li{display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+}
+.head ul {
+    margin: 0;
+    padding: 0;
+}
+.head header{
+    display: inline-block;
+    padding: 150px 0;
+}
+header {
+    display: inline-block;
+    padding: 100px 0;
+}
+/*///////////////////////////////////*/
+.pict a {
+    width: 675px;
+    max-width: 675px;
+    text-decoration: none;
+    font-size: 16px;
+    color: chocolate;
+    font-family: "Bookman Old Style";
+    text-align: center;
+    padding-left: 10px;
+    margin: auto;
+}
+.pict li{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    margin: 0;
+}
+.pict ul {
+
+    margin: 0;
+    padding: 0;
+}
+.pict span {
+    font-size: 12px;
+    color: #b2b2b2;
+}
+.pict figure{
+    margin: 0;
+    padding: 0;
+}
+.pict div{
+    display: inline-block;
+    max-width: 400px;
+    vertical-align: top;
+}
+/*/////////////////*/
+.img img {
+    max-width: 675px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.img figcaption {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Informal Roman";
+}
+/*//////////////////////*/
+.rotated {
+    text-align:right;
+    vertical-align: middle;
+    color: #232323;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 300;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    width: 73px;
+    height: 500px;
+    margin-top: 150px;
+
+}
+.rotated span{
+    color: #232323;
+    font-size: 24px;
+    font-weight: 300;
+}
+/*/////////////////////*/
+.polosochka div{
+    display: inline-block;
+    vertical-align: top;
+    height: 500px;
+    max-height: 500px;
+}
+.polosochka input{
+    background-color: transparent;
+    height: 70px;
+    width:450px;
+    border: thin #b2b2b2;
+}
+.polosochka li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.polosochka li>a>img:hover{
+    height: 280px;
+    border: solid;
+    border-width: thick;
+    border-color: #a87d5b;
+    border-collapse: collapse
+}
+.polosochka form{
+    position: absolute;
+    right:50px;
+    bottom:10px;
+}
+.content.glas > span{
+    color: #a87d5b;
+    font-size: 16px;
+}
+.polosochka button {
+    height: 75px;
+    width: 305px;
+    font-size: 36px;
+    color: aliceblue;
+    text-align: center;
+    vertical-align: middle;
+    border: solid;
+    border-width: thin;
+    border-color: aliceblue;
+    font-family: Arial;
+}
+.polosochka button:hover{
+    background-color: khaki;
+}
+.polosochka figure{
+    height: 140px;
+    width: 250px;
+    border-color: #d3bdac;
+    border-width: thin;
+    border-style: solid;
+    position: absolute;
+    bottom: 0px;
+}
+/*///////////////////////*/
+.news form {
+    display: inline-block;
+    position: absolute;
+    bottom: 50%;
+    width:525px;
+    right:30%;
+    left: 30%;
+    text-align: center;
+}
+.news button {
+    padding: 0;
+    width: 72px;
+    height: 72px;
+    border: solid;
+    border-width: thin;
+    border-color: #b2b2b2;
+    border-left: none;
+
+}
+.news img {
+    margin: 0;
+    padding: 0;
+}
+.news input{
+    padding: 0;
+    background-color: transparent;
+    height: 70px;
+    width:450px;
+    border: solid thin #b2b2b2;
+    border-right: none;
+}
+.news span{
+    font-size: 24px;
+    color: #a87d5b;
+}
+/*/////////////////////*/
+.content p{
+    color: black;
+    height: 15px;
+    width: 10px;
+    vertical-align: top;
+    text-align: left;
+    -webkit-transform: rotate(270deg);
+}
+.content div{
+    display: inline-block;
+    vertical-align: top;
+    height: 500px;
+}
+.content form{
+    position: absolute;
+    right:50px;
+    bottom:10px;
+}
+.content span {
+    vertical-align: bottom;
+    text-align: center;
+    color: aliceblue;
+    font-size: 36px;
+}
+.content.glas > span{
+    color: #a87d5b;
+    font-size: 16px;
+}
+.content button {
+    height: 75px;
+    width: 305px;
+    font-size: 36px;
+    color: aliceblue;
+    text-align: center;
+    vertical-align: middle;
+    border: solid;
+    border-width: thin;
+    border-color: aliceblue;
+    font-family: Arial;
+}
+.content button:hover{
+    background-color: khaki;
+}
+.content figure{
+    height: 140px;
+    width: 250px;
+    border-color: #d3bdac;
+    border-width: thin;
+    border-style: solid;
+    position: absolute;
+    bottom: 0px;
+}
+.content li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.content>li>span{
+    font-size: 18px;
+    color: #a87d5b;
+    font-family:'Franklin Gothic Book'
+}
+.content li>a>img:hover{
+    height: 280px;
+    border: solid;
+    border-width: thick;
+    border-color: #a87d5b;
+    border-collapse: collapse
+}
+/*/////////////////////////////////*/
+#con {
+    margin: auto;
+    padding: 10px 0;
+    height: 700px;
+}
+#footer {
+    max-width: 1300px;
+    margin: auto;
+    padding: 10px 0;
+    padding-top: 100px;
+    height: 450px;
+}
+footer {
+    padding-top: 100px;
+    background-image:url("Images/mainbg.png");
+    font-size: 11px;
+}
+/*//////////////////////////////////*/
+.foot {
+     align-content: center;
+    float: left;
+    margin-left: 420px;
+    padding-right: 15px;
+}
+
+.foot h1 {
+    display: inline;
+    font-size:16px;
+    color: #a87d5b;
+}
+
+.foot div {
+     vertical-align: top;
+     margin:  auto;
+     display: inline-block;
+}
+
+.foot div + div {
+    margin-left: 40px;
+}
+
+.foot a {
+    color: #8f8f8f;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
